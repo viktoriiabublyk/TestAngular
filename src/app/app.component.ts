@@ -15,15 +15,6 @@ export class AppComponent implements OnInit {
       title: new FormControl('', [Validators.minLength(3), Validators.required]),
       text: new FormControl('', [Validators.required, Validators.minLength(5)]),
     });
-
-    this.posts.push({
-      title: 'Title 1',
-      text: 'TExt 1'
-    });
-    this.posts.push({
-      title: 'Title 2',
-      text: 'TExt 2'
-    });
   }
 
   submit() {
