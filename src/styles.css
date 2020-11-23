@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  background-color: #f0f4fd;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.form-wrapper {
+  max-width: 500px;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: white 1px solid;
+}
+
+h1 {
+ margin: 3rem auto;
+ text-align: center;
+}
+
+.form-item-wrapper {
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+}
+
+.form-buttons,
+.todolist-item-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  height: 42px;
+  width: 126px;
+  background-color: white;
+  border: #f0f4fd;
+}
+
+.todolist-wrapper {
+  margin-top: 15px;
+  max-width: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todolist-item {
+  background-color: #f0f4fd;
+  margin-bottom: 20px;
+  padding: 16px;
+}
+
+.todolist-title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.todolist-text {
+  margin-bottom: 2rem;
+}
+
